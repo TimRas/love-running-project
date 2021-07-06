@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
     float: left;
     size: 280%;
+    margin-left: 30px;
 }
 
 #menu {
@@ -112,4 +113,31 @@ animation-fill-mode: forwards;
     right:150px;
 
     position: absolute;
+}
+
+/* club ethos*/
+
+#club-ethos {
+    height: 600px;
+
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: red
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: blue;
 }
